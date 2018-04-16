@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <section class="section-cover">
+    <img src="images/cat.jpg" alt="" class="section-cover__img">
+    <h1 class="section-cover__title title-primary">Пиксель-Арт</h1>
+  </section>
+  <div class="draw">
+    <div class="draw__area" 
+    style="background: #90c4b8; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;">
+      <div class="draw__cell"></div>
+      <div class="draw__cell"></div>
+      <div class="draw__cell"></div>
+      <div class="draw__cell"></div>
+      <div class="draw__cell"></div>
+      <div class="draw__cell"></div>
+      <div class="draw__cell"></div>
+      <div class="draw__cell"></div>
+      <div class="draw__cell"></div>
+      <div class="draw__cell"></div>
+      <div class="draw__cell"></div>
+      <div class="draw__cell"></div>
+      <div class="draw__cell"></div>
+      <div class="draw__cell"></div>
+      <div class="draw__cell"></div>
+      <div class="draw__cell"></div>
+    </div>
+    <div class="draw__time time">
+      <div class="time__title">Время:</div>
+      <span class="time__minutes">00</span>:<span class="time__seconds">00</span>
+    </div>
+    <button class="btn draw__btn--tern">Повернуть</button>
+    <button class="btn draw__btn--result">Результат</button>
+    <canvas width="594" height="266" class="draw__result"></canvas>
+  </div>
+</div>
+
+<script src="js/draw.js"></script>
+</body>
+</html>
